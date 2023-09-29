@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap");
+
+.titleBackgroundMyCards{
+    width: 100%;
+    height: 100%;
+    background-image: url('../Assets/Images/Website-Post-Template.jpg') !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+.idDisplay{
+    background-color: none;
+    font-family: "Martian Mono", monospace !important;
+    text-align: center;
+    font-size: 28px;
+    background-color: white;
+    width: 100% !important;
+    height: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 2px black;
+}

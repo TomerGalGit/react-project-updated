@@ -1,0 +1,202 @@
+
+.contact-title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 45%;
+    padding-bottom: 5px;
+  }
+  
+  .card-contact {
+    color: #859ba8;
+    font-size: 1em;
+  }
+  .card-description{
+    padding-top: 20px !important;
+    padding-top: 10px;
+  }
+
+  .card-city{
+    margin-top: 50px;
+  }
+  .icon-contact {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-contact svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+    fill: #515f65;
+    padding-right: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 50px #23232333;
+  }
+  
+  .card:hover .card-info {
+    transform: translateY(-5%);
+  }
+  
+  .card-avatar:hover {
+    transform: scale(1.05);
+  }
+  
+  #cs1:hover {
+    transform: scale(2);
+  }
+  
+  #cs2:hover {
+    transform: scale(2);
+  }
+  
+  #cs3:hover {
+    transform: scale(2);
+  }
+  
+  .main:hover #c1 {
+    transform: translateX(0px);
+  }
+  
+  .main:hover #c2 {
+    transform: translateX(200px);
+  }
+  
+  .main:hover #c3 {
+    transform: translateX(-200px);
+  }
+  .confirmation {
+    background-color: rgb(77, 77, 77);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+    max-width: 50%;
+    min-width: 15%;
+    max-height: 75%;
+    min-height: 25%;
+    border-radius: 2%;
+  }
+  
+  .confirmation p {
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  
+  .confirmation button {
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    transition: 0.1s;
+    font-family: "Poppins", sans-serif;
+  }
+  .confirmation button:hover {
+    scale: 1.05;
+  }
+  
+  .confirmation button:first-child {
+    color: white;
+  }
+  
+  .confirmation button:last-child {
+    background-color: #cccccc;
+  }
+  .card-social {
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  .card-social-icon {
+    list-style: none;
+    color: #515f65;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-social-icon svg {
+    display: block;
+    height: 20px;
+    width: 20px;
+    fill: #515f65;
+    cursor: pointer;
+  }
+  
+  .card-title {
+    color: #1b1b1b;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .card-subtitle {
+    color: #7e93a0;
+    font-size: 1em;
+    text-align: center;
+    background: linear-gradient(to right, #858585 110%, transparent 50%);
+    padding-bottom: 10px;
+    background-size: 60% 2px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .address-icon {
+    fill: #515f65;
+    height: 150px;
+    width: 100px;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  .address-title {
+    color: #333;
+    font-size: 1em;
+    font-weight: 600;
+    list-style: none;
+  }
+  
+  .address {
+    color: #859ba8;
+    font-size: 0.8em;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 35px !important;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b !important;
+  }
+  .heart-icon{
+    margin-left: 35px !important;
+    margin-bottom: 10px !important;
+    padding-top: 10px !important;
+    transition: 0.4s !important; 
+    }  
+  .heart-icon:hover{
+    background: none !important;
+    scale: 1.25;
+  }
+  .heart-icon:active{
+    scale: 2.35;
+
+  }

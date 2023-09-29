@@ -1,0 +1,25 @@
+.wrapper{
+    padding-top: 25px;
+    height: 80vh;
+    width: 50% !important;
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+}
+.css-16ggt3o{
+    margin-top: 0 !important;
+}
+.wrapperLog{
+    width: 30% !important;
+    height: 45vh;
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+}
+.wrapper-sign-up{
+    height: 100vh;
+    width: 30% !important;
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+}

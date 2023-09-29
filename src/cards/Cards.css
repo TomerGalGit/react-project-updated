@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #000427;
+  padding-bottom: 50px;
+}
+.cardRow:nth-child(2n){
+  background-color: #00063b;
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 24%;
+    min-width: 30%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 49%;
+    min-width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 70%;
+    min-width: 70%;
+  }
+}
+
+.main {
+  display: block;
+  width: 190px;
+  height: 254px;
+}
+
+.card {
+  margin-top: 100px !important;
+  width: 420px;
+  height: 600px;  
+  border-radius: 2%;
+  font-size: 22px;
+  border: 3px solid #165692;
+  transition: 0.2s;
+  background-color: rgba(252, 252, 252, 0.993);
+}
+.card:hover {
+  scale: 1.03;
+  box-shadow: 2px 0px 15px rgba(177, 177, 177, 0.541) !important;
+}
+.avatar-background {
+  background-color: #00406f;
+  border-radius: 2%;
+  padding-bottom: 20px;
+}
+.delete-btn {
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background: #e62222;
+}
+.call-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 59px;
+  border-radius: 5px;
+  border: none;
+  background-color: #30c04f;
+  margin-left: 35px;
+  cursor: pointer;
+  
+}
+
+
+.call-button:hover {
+  background-color: #2bac47;
+}
+
+.delete-btn,
+.delete-btn span {
+  transition: 200ms;
+}
+
+.delete-btn .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+}
+
+.delete-btn .icon {
+  position: absolute;
+  border-left: 1px solid #c41b1b;
+  transform: translateX(110px);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn svg {
+  width: 15px;
+  fill: #eee;
+}
+
+.delete-btn:hover {
+  background: #ff3636;
+}
+
+.delete-btn:hover .text {
+  color: transparent;
+}
+
+.delete-btn:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+
+.delete-btn:active .icon svg {
+  transform: scale(0.8);
+}
+.fav-btn {
+  flex: 0.2;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.fav-btn:hover {
+  scale: 1.15;
+}
+.header-btns {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+
+}
+.card > * {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.card-job {
+  text-align: center;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-phone,
+.card-email,
+.card-city {
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
+.card-avatar {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: fill;
+  margin: auto;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  padding-top: 15px;
+}
+.card-avatar > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.card-avatar svg {
+  padding-top: 5px;
+  margin-right: 20px !important;
+  height: 150px;
+  width: 150px;
+  fill: #515f65;
+}

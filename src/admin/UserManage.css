@@ -1,0 +1,74 @@
+.admin .card-name {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.admin .card-business {
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgb(119, 119, 119);
+}
+.card-userId {
+    margin-top: 55px;
+    margin-right: 55px !important;
+}
+.icon-id {
+  display: "flex";
+  align-items: "center";
+}
+.edit-btn{
+  width: 50%;
+  cursor: pointer;
+  height: 65px;
+  top: 30px;
+  background-color: rgb(22, 241, 14);
+  color: white;
+  border: none;
+  border-radius: 2%;
+  position: relative;
+  transition: 0.6s;
+
+}
+.adminDel:hover{
+  scale: 1.05;
+  z-index: 33;
+}
+.edit-btn:hover{
+  opacity: 65%;
+}
+.adminDel{
+  width: 50% ;
+  height: 65px;
+  top: 55px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 2%;
+
+}
+.card{
+  margin-top: 50px;
+}
+.admin.card{
+  height: 500px;
+}
+
+.titleBackgroundUserManager{
+  width: 100%;
+  height: 100% !important;
+  background-image: url("../Assets/Images/boss\'soffice.jpg") !important;
+  background-size: cover;
+  background-position-y: 910px ;
+  padding-bottom: 180px;
+  padding-top: 20px;
+}
+.delete-btn.admin{
+  width: 50% !important;
+  height: 65px;
+  top: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 2%;
+
+}
